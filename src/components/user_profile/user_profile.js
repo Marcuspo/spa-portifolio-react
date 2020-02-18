@@ -1,15 +1,13 @@
 import React from "react";
 
 import avatar from "../../images/avatar.png";
-import Card from "react-materialize/lib/Card";
-import Row from "react-materialize/lib/Row";
-import Col from "react-materialize/lib/Col";
+import { Card, Row, Col } from "react-materialize";
 
 const UserProfile = () => (
   <Card>
     <Row>
       <Col s={8} m={8} offset="s2 m2">
-        <img src={avatar} className="circle responsive-img" />
+        <img src={avatar} className="circle responsive-img" alt="avatar" />
       </Col>
     </Row>
     <Row>
