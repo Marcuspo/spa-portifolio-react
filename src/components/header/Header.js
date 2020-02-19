@@ -1,5 +1,7 @@
 import React from "react";
 
+import { NavLink } from "react-router-dom";
+
 const Header = () => (
   <nav>
     <div class="nav-wrapper">
@@ -8,10 +10,10 @@ const Header = () => (
       </a>
       <ul id="nav-mobile" class="left hide-on-med-and-down">
         <li>
-          <a href="/">Home</a>
+          <NavLink to="/">Home</NavLink>
         </li>
         <li>
-          <a href="/contact">Contato</a>
+          <NavLink to="contact">Contato</NavLink>
         </li>
       </ul>
     </div>
