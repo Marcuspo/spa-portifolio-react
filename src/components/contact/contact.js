@@ -6,7 +6,7 @@ import UserProfile from "../user_profile/user_profile";
 
 const Contact = () => (
   <Row>
-    <Col m={3} s={12}>
+    <Col m={3} s={12} className="avatar">
       <UserProfile />
     </Col>
 
@@ -14,13 +14,13 @@ const Contact = () => (
       <h5>Contato</h5>
       <Card>
         <Row>
-          <Input
+          <input
             placeholder="lorem@ipsum.com"
             type="email"
             label="Email"
             s={12}
           />
-          <Input placeholder="Lorem lorem ........." label="Mensagem" s={12} />
+          <input placeholder="Lorem lorem ........." label="Mensagem" s={12} />
           <Col s={12} m={12}>
             <Button waves="light" className="right grey darken-2">
               Enviar
