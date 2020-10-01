@@ -20,7 +20,7 @@ const Contact = () => (
             label="Email"
             s={12}
           />
-          <input placeholder="Lorem lorem ........." label="Mensagem" s={12} />
+          <input placeholder="Digite aqui" label="Mensagem" s={12} />
           <Col s={12} m={12}>
             <Button waves="light" className="right grey darken-2">
               Enviar
